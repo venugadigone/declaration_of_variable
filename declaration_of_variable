@@ -1,0 +1,6 @@
+ declare
+ v_name varchar2(10):='james';
+ begin
+dbms_output.put_line('my name is' || v_name);
+end;
+  /
